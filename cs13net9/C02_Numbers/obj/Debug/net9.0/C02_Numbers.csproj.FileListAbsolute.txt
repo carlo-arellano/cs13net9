@@ -1,0 +1,15 @@
+D:\workspace\cs13net9\cs13net9\C02_Numbers\bin\Debug\net9.0\C02_Numbers.exe
+D:\workspace\cs13net9\cs13net9\C02_Numbers\bin\Debug\net9.0\C02_Numbers.deps.json
+D:\workspace\cs13net9\cs13net9\C02_Numbers\bin\Debug\net9.0\C02_Numbers.runtimeconfig.json
+D:\workspace\cs13net9\cs13net9\C02_Numbers\bin\Debug\net9.0\C02_Numbers.dll
+D:\workspace\cs13net9\cs13net9\C02_Numbers\bin\Debug\net9.0\C02_Numbers.pdb
+D:\workspace\cs13net9\cs13net9\C02_Numbers\obj\Debug\net9.0\C02_Numbers.GeneratedMSBuildEditorConfig.editorconfig
+D:\workspace\cs13net9\cs13net9\C02_Numbers\obj\Debug\net9.0\C02_Numbers.AssemblyInfoInputs.cache
+D:\workspace\cs13net9\cs13net9\C02_Numbers\obj\Debug\net9.0\C02_Numbers.AssemblyInfo.cs
+D:\workspace\cs13net9\cs13net9\C02_Numbers\obj\Debug\net9.0\C02_Numbers.csproj.CoreCompileInputs.cache
+D:\workspace\cs13net9\cs13net9\C02_Numbers\obj\Debug\net9.0\C02_Numbers.sourcelink.json
+D:\workspace\cs13net9\cs13net9\C02_Numbers\obj\Debug\net9.0\C02_Numbers.dll
+D:\workspace\cs13net9\cs13net9\C02_Numbers\obj\Debug\net9.0\refint\C02_Numbers.dll
+D:\workspace\cs13net9\cs13net9\C02_Numbers\obj\Debug\net9.0\C02_Numbers.pdb
+D:\workspace\cs13net9\cs13net9\C02_Numbers\obj\Debug\net9.0\C02_Numbers.genruntimeconfig.cache
+D:\workspace\cs13net9\cs13net9\C02_Numbers\obj\Debug\net9.0\ref\C02_Numbers.dll
