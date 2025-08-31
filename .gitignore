@@ -3,7 +3,14 @@
 ################################################################################
 
 /cs13net9/.vs
-/cs13net9/C01_AboutMyEnvironment/bin/Debug/net9.0
-/cs13net9/C01_AboutMyEnvironment/obj
-/cs13net9/C01_HelloCS/bin/Debug/net9.0
-/cs13net9/C01_HelloCS/obj
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
