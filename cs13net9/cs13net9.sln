@@ -35,6 +35,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C03_ExerciseOperators", "C0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C03_ExerciseFizzBuzz", "C03_ExerciseFizzBuzz\C03_ExerciseFizzBuzz.csproj", "{D87596F4-F86E-468A-AB1C-B42A21BAA17E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C04_TopLevelFunctions", "C04_TopLevelFunctions\C04_TopLevelFunctions.csproj", "{30372383-7028-44BA-B16D-E176945697DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C04_WritingFunctions", "C04_WritingFunctions\C04_WritingFunctions.csproj", "{20E4438E-F160-47CA-935C-9A07F0A19E9B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +109,14 @@ Global
 		{D87596F4-F86E-468A-AB1C-B42A21BAA17E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D87596F4-F86E-468A-AB1C-B42A21BAA17E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D87596F4-F86E-468A-AB1C-B42A21BAA17E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30372383-7028-44BA-B16D-E176945697DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30372383-7028-44BA-B16D-E176945697DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30372383-7028-44BA-B16D-E176945697DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30372383-7028-44BA-B16D-E176945697DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20E4438E-F160-47CA-935C-9A07F0A19E9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20E4438E-F160-47CA-935C-9A07F0A19E9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20E4438E-F160-47CA-935C-9A07F0A19E9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20E4438E-F160-47CA-935C-9A07F0A19E9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
