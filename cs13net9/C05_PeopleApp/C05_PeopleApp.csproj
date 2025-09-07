@@ -6,17 +6,10 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 	</PropertyGroup>
-
+	
 	<ItemGroup>
-	  <Compile Remove="Program.Helpers.cs" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <None Include="Program.Helpers.cs" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <ProjectReference Include="..\C05_PacktLibraryNet2\C05_PacktLibraryNet2.csproj" />
+		<ProjectReference Include="..\C05_PacktLibraryModern\C05_PacktLibraryModern.csproj" />
+		<ProjectReference Include="..\C05_PacktLibraryNet2\C05_PacktLibraryNet2.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>

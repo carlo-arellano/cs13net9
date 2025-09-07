@@ -71,6 +71,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C05_PacktLibraryNet2", "C05
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C05_PeopleApp", "C05_PeopleApp\C05_PeopleApp.csproj", "{DF38E57C-B190-4240-83D7-E25003E959E8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C05_PacktLibraryModern", "C05_PacktLibraryModern\C05_PacktLibraryModern.csproj", "{6215BCA7-2727-4E2F-AC04-0B46A97B95D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -193,6 +195,10 @@ Global
 		{DF38E57C-B190-4240-83D7-E25003E959E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF38E57C-B190-4240-83D7-E25003E959E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF38E57C-B190-4240-83D7-E25003E959E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6215BCA7-2727-4E2F-AC04-0B46A97B95D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6215BCA7-2727-4E2F-AC04-0B46A97B95D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6215BCA7-2727-4E2F-AC04-0B46A97B95D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6215BCA7-2727-4E2F-AC04-0B46A97B95D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -227,6 +233,7 @@ Global
 		{734A9611-3CF6-4D3F-B2C0-8B040B40CABA} = {6EF23C0F-2F08-49A9-97B2-8F0A663112DA}
 		{6906A357-3EE6-48F8-BE52-E716C687EA3D} = {6048CB00-C63B-4167-8124-A356000DC871}
 		{DF38E57C-B190-4240-83D7-E25003E959E8} = {6048CB00-C63B-4167-8124-A356000DC871}
+		{6215BCA7-2727-4E2F-AC04-0B46A97B95D0} = {6048CB00-C63B-4167-8124-A356000DC871}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {32151CAA-55BE-4A6A-A967-FC4B6A32E020}
