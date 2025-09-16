@@ -138,19 +138,145 @@ OutputPeopleNames(people, "After sorting using PersonComparer's IComparer implem
 
 #endregion
 
-//#region Defining struct types
+#region Defining struct types
 
-//DisplacementVector dv1 = new(3, 5);
-//DisplacementVector dv2 = new(-2, 7);
-//DisplacementVector dv3 = dv1 + dv2;
+DisplacementVector dv1 = new(3, 5);
+DisplacementVector dv2 = new(-2, 7);
+DisplacementVector dv3 = dv1 + dv2;
 
-//WriteLine($"({dv1.X}, {dv1.Y}) + ({dv2.X}, {dv2.Y}) = ({dv3.X}, {dv3.Y})");
+WriteLine($"({dv1.X}, {dv1.Y}) + ({dv2.X}, {dv2.Y}) = ({dv3.X}, {dv3.Y})");
 
-//DisplacementVector dv4 = new();
-//WriteLine($"({dv4.X}, {dv4.Y})");
+DisplacementVector dv4 = new();
+WriteLine($"({dv4.X}, {dv4.Y})");
 
-//DisplacementVector dv5 = new(3, 5);
-//WriteLine($"dv1.Equals(dv5): {dv1.Equals(dv5)}");
-//WriteLine($"dv1 == dv5: {dv1 == dv5}");
+DisplacementVector dv5 = new(3, 5);
+WriteLine($"dv1.Equals(dv5): {dv1.Equals(dv5)}");
+WriteLine($"dv1 == dv5: {dv1 == dv5}");
 
-//#endregion
+#endregion
+
+#region Inheriting from classes
+
+Employee john = new()
+{
+    Name = "John Jones",
+    Born = new(year: 1990, month: 7, day: 28, hour: 0, minute: 0, second: 0, offset: TimeSpan.Zero)
+};
+
+john.WriteToConsole();
+
+#endregion
+
+#region Extending classes to add functionality
+
+john.EmployeeCode = "JJ001";
+john.HireDate = new(year: 2014, month: 11, day: 23);
+WriteLine($"{john.Name} was hired on {john.HireDate:yyyy-MM-dd}.");
+
+#endregion
+
+#region Overriding members
+
+WriteLine(john.ToString());
+
+#endregion
+
+#region Understanding polymorphism
+
+Employee aliceInEmployee = new() { Name = "Alice", EmployeeCode = "AA123" };
+
+Person aliceInPerson = aliceInEmployee;
+aliceInEmployee.WriteToConsole();
+aliceInPerson.WriteToConsole();
+WriteLine(aliceInEmployee.ToString());
+WriteLine(aliceInPerson.ToString());
+
+#endregion
+
+#region Explicit casting
+
+if (aliceInPerson is Employee)
+{
+    WriteLine($"{nameof(aliceInPerson)} is an Employee.");
+
+    Employee explicitAlice = (Employee)aliceInPerson;
+
+    // Safely do something with explicitAlice.
+}
+
+#endregion
+
+#region Using as to cast a type
+
+Employee? aliceAsEmployee = aliceInPerson as Employee;
+
+if (aliceAsEmployee is not null)
+{
+    WriteLine($"{nameof(aliceInPerson)} as an Employee.");
+
+    // Safely do something with aliceAsEmployee.
+}
+
+#endregion
+
+
+#region Inheriting exceptions
+
+try
+{
+    john.TimeTravel(when: new(1999, 12, 31));
+    john.TimeTravel(when: new(1923, 12, 25));
+}
+catch (PersonException ex)
+{
+    WriteLine(ex.Message);
+}
+
+#endregion
+
+#region Using static methods to reuse functionality
+
+string email1 = "pamela@test.com";
+string email2 = "ian&test.com";
+
+WriteLine("{0} is a valid e-mail address: {1}",
+  arg0: email1,
+  arg1: StringExtensions.IsValidEmail(email1));
+
+WriteLine("{0} is a valid e-mail address: {1}",
+  arg0: email2,
+  arg1: StringExtensions.IsValidEmail(email2));
+
+#endregion
+
+#region Using extension methods to reuse functionality
+
+WriteLine("{0} is a valid e-mail address: {1}",
+  arg0: email1,
+  arg1: email1.IsValidEmail());
+
+WriteLine("{0} is a valid e-mail address: {1}",
+  arg0: email2,
+  arg1: email2.IsValidEmail());
+
+#endregion
+
+#region Mutability and records
+
+C1 c1 = new() { Name = "Bob" };
+c1.Name = "Bill";
+
+C2 c2 = new(Name: "Bob");
+//c2.Name = "Bill"; // CS8852: Init-only property.
+
+S1 s1 = new() { Name = "Bob" };
+s1.Name = "Bill";
+
+S2 s2 = new(Name: "Bob");
+s2.Name = "Bill";
+
+S3 s3 = new(Name: "Bob");
+//s3.Name = "Bill"; // CS8852: Init-only property.
+
+#endregion
+

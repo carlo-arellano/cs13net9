@@ -79,6 +79,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C06_PeopleApp", "C06_People
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C06_PacktLibrary", "C06_PacktLibrary\C06_PacktLibrary.csproj", "{0AD1C8F3-6BAA-425C-B1FE-A3480E0D4846}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C06_NullHandling", "C06_NullHandling\C06_NullHandling.csproj", "{131C8A01-2A3B-487E-A65F-B144455D0F9D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -213,6 +215,10 @@ Global
 		{0AD1C8F3-6BAA-425C-B1FE-A3480E0D4846}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0AD1C8F3-6BAA-425C-B1FE-A3480E0D4846}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0AD1C8F3-6BAA-425C-B1FE-A3480E0D4846}.Release|Any CPU.Build.0 = Release|Any CPU
+		{131C8A01-2A3B-487E-A65F-B144455D0F9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{131C8A01-2A3B-487E-A65F-B144455D0F9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{131C8A01-2A3B-487E-A65F-B144455D0F9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{131C8A01-2A3B-487E-A65F-B144455D0F9D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -250,6 +256,7 @@ Global
 		{6215BCA7-2727-4E2F-AC04-0B46A97B95D0} = {6048CB00-C63B-4167-8124-A356000DC871}
 		{FD642A20-EEB8-49EC-BD9D-5EC756F91048} = {5022CA46-0E91-4814-ACDA-81FC9B134762}
 		{0AD1C8F3-6BAA-425C-B1FE-A3480E0D4846} = {5022CA46-0E91-4814-ACDA-81FC9B134762}
+		{131C8A01-2A3B-487E-A65F-B144455D0F9D} = {5022CA46-0E91-4814-ACDA-81FC9B134762}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {32151CAA-55BE-4A6A-A967-FC4B6A32E020}
