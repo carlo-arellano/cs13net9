@@ -5,18 +5,13 @@
 		<TargetFramework>net9.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
+		<RuntimeIdentifiers>
+			win-x64;osx-arm64;linux-x64
+		</RuntimeIdentifiers>
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
-	</ItemGroup>
-
-	<ItemGroup>
-		<ProjectReference Include="..\C07_SharedLibrary\C07_SharedLibrary.csproj" />
-	</ItemGroup>
-
-	<ItemGroup>
-		<Using Include="System.Console" Static="true" />
+		<Using Include="System.Console" Static="true"/>
 	</ItemGroup>
 
 </Project>

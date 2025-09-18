@@ -34,3 +34,4 @@ string? password = ReadLine();
 WriteLine("Is {0} a valid password? {1}", arg0: password, arg1: password.IsValidPassword());
 
 #endregion
+
